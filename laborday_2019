@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+class laborday():
+  have_fun = 'yes'
+  get_stuff_done = 'tons'
+  
+  def __init__(self, fun, stuff):
+    self.fun = fun
+    self.stuff = stuff
+    
+l1 = laborday('hiking', 'vacume')
+print(l1.fun)
+      
+      
